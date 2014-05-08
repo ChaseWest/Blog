@@ -4,8 +4,6 @@
 
   Please let me know if you have any questions, want to contribute or simply have a suggestion on what to write about. I'd be happy to include any posts from contributors that have something they'd like to write about, but are unsure what to do with it. If you find something incorrect, don't hesitate to make changes and submit them back to me or just let me know and I'll gladly make the change.
 
-*Me: http://chasewest.github.io/*
-
 #Helpful Links
 
 It is recommended that you **do not use W3Schools**:
