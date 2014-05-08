@@ -65,6 +65,8 @@ You'll notice a few things here:
 
 We can, however, get the node that was clicked by using the `event` *object* that gets passed to our `function`.
 
+##### `event` object
+
 ```javascript
 var items = document.querySelector("ul");
   
@@ -73,7 +75,11 @@ items.onclick = function(e){
 }
 ```
 
-In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` argument that gets passed to all `event` callback functions. We've also changed `this` inside our function to `e.target` which is the `element` within the `parent` that caused the `event`.  
+In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` argument that gets passed to all `event` callback functions. 
+
+
+
+We've also changed `this` inside our function to `e.target` which is the `element` within the `parent` that caused the `event`.  
 
 #### Event Bubbling
 
@@ -83,5 +89,5 @@ In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` 
 
 #### attachEvent vs addEventListener
 
-#### `event` object
+
 
