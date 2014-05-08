@@ -1,5 +1,4 @@
 #README
-====
 
   This repo is a collection of my posts that I believe will be helpful to others pursuing knowledge in the areas of `Javascript`, `HTML`, `CSS` or whatever subject sounds interesting. I'm by no means an expert in these areas, but in order to help myself retain the knowledge I've decided to write it down here. If it ends up helping others in the process then that's awesome and I'd love to hear any feedback you may have.
 
@@ -8,7 +7,6 @@
 *Me: http://chasewest.github.io/*
 
 #Helpful Links
-==============
 
 It is recommended that you **do not use W3Schools**:
 
