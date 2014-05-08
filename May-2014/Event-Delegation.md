@@ -61,7 +61,19 @@ You'll notice a few things here:
 
   - We've changed from `querySelectorAll` to `querySelector`. Since we're only wanting one `parent` node to `bind` our event to, it makes more sense to use `querySelector`.
   - We only have one `element` now, so there's no need for the `for` loop.
-  - Finally, if you run this example you should notice one final detail. `this.innerText` is returning all the list items any time you click **ANY** of them.  
+  - Finally, if you run this example you should notice one final detail. `this.innerText` is returning all the list items any time you click **ANY** of them. This is because the `this` inside the `event` is now the `ul` node that we bound the event to. 
+
+We can, however, get the node that was clicked by using the `event` *object* that gets passed to our `function`.
+
+```javascript
+var items = document.querySelector("ul");
+  
+items.onclick = function(e){
+    alert("Hi from " +  e.target.innerText);    
+}
+```
+
+In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` argument that gets passed to all `event` callback functions. We've also changed `this` inside our function to `e.target` which is the `element` within the `parent` that caused the `event`.  
 
 #### Event Bubbling
 
