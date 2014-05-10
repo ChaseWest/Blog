@@ -94,6 +94,8 @@ There are two forms of Event Propagtion (Event Bubbling and Event Capturing), ho
 
 #### Performance  
 
+As you can probably tell by now, Event Delegation can dramatically increase the performance of your site. But better than that, it's also much easier to manage. You don't need to worry about adding or removing handlers when dynamics elemnts are added/removed.  
+
 #### Compatability
 
 #### attachEvent vs addEventListener
