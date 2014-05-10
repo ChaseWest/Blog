@@ -80,7 +80,17 @@ You'll notice the following changes:
 - In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` argument that gets passed to all `event` callback functions. 
 - We've also changed `this` inside our function to `e.target` which is the `element` within the `parent` that caused the `event`.  
 
-#### Event Bubbling
+#### Event Propagation
+
+There are two forms of Event Propagtion (Event Bubbling and Event Capturing), however only **Event Bubbling** is supported by all major browsers. 
+
+##### [Event Bubbling](http://www.w3.org/TR/DOM-Level-2-Events/events.html#Events-flow-bubbling)
+
+>   The process by which an event propagates upward through its ancestors after being handled by the event's target.
+
+##### [Event Capturing](http://www.w3.org/TR/DOM-Level-2-Events/events.html#Events-flow-capture)
+
+>   The process by which an event can be handled by one of the event's target's ancestors before being handled by the event's target.
 
 #### Performance  
 
