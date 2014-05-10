@@ -67,6 +67,8 @@ We can, however, get the node that was clicked by using the `event` *object* tha
 
 ##### `event` object
 
+>  Warning - I'm not going into the full details here, but in older versions of IE you'll need to check `window.event`. Something like this: `var e = e || window.event` should do the trick.
+
 ```javascript
 var items = document.querySelector("ul");
   
