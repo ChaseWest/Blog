@@ -1,4 +1,4 @@
-# Events
+# [Events](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
 ## Event Binding
 
@@ -13,8 +13,6 @@ Events are generally fairly simple - you have a `DOM` element that you want to p
     alert("click");
   }
 ```
-
-
 
 In this [example](http://jsfiddle.net/ChaseWest/S5Req/1/), the `button` element `fires` an `onclick` event whenever it is clicked. 
 
@@ -77,11 +75,10 @@ items.onclick = function(e){
 }
 ```
 
-In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` argument that gets passed to all `event` callback functions. 
+You'll notice the following changes:
 
-
-
-We've also changed `this` inside our function to `e.target` which is the `element` within the `parent` that caused the `event`.  
+- In this [example](http://jsfiddle.net/ChaseWest/5hYcU/3/) we've included an `e` argument that gets passed to all `event` callback functions. 
+- We've also changed `this` inside our function to `e.target` which is the `element` within the `parent` that caused the `event`.  
 
 #### Event Bubbling
 
