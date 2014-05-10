@@ -82,10 +82,22 @@ You'll notice the following changes:
 
 #### attachEvent vs addEventListener
 
+##### [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener)
+
+>   target.addEventListener(event, listener[, useCapture]);
+
+- **target** - The DOM node that you want to bind the `event` to. 
+- **event** - The string representation of the event, ex: "click", "change", etc..
+- **listener** - 
+- **useCapture (optional)**
+
+##### [attachEvent](http://msdn.microsoft.com/en-us/library/ie/ms536343(v=vs.85).aspx)
+
+>   target.attachEvent(event, listener)
 
 Now that we know a bit more about what we need to do, lets dive into what makes this possible.
 
-#### Event Propagation
+### Event Propagation
 
 There are two forms of Event Propagtion (Event Bubbling and Event Capturing), however only **Event Bubbling** is supported by all major browsers. 
 
@@ -104,6 +116,6 @@ Using event capturing, you get the reverse of event bubbling, in that the parent
 
 There's a great article [here](http://www.quirksmode.org/js/events_order.html) on event propagation.
 
-#### Performance  
+### Performance  
 
 As you can probably tell by now, Event Delegation can dramatically increase the performance of your site. But better than that, it's also much easier to manage. You don't need to worry about adding or removing handlers when dynamic elemnts are added to/removed from the DOM.  
