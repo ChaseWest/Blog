@@ -86,14 +86,24 @@ You'll notice the following changes:
 
 >   target.addEventListener(event, listener[, useCapture]);
 
-- **target** - The DOM node that you want to bind the `event` to. 
-- **event** - The string representation of the event, ex: "click", "change", etc..
-- **listener** - 
-- **useCapture (optional)**
+This is the function you'll be using the most, as it's the more widely supported.  
 
 ##### [attachEvent](http://msdn.microsoft.com/en-us/library/ie/ms536343(v=vs.85).aspx)
 
 >   target.attachEvent(event, listener)
+
+Even though this is slowly being removed, if you want to support older IE browsers you'll need to use it. One things to note is that the `event` will need to be prefixed with `on`, so `onclick`, `onchange`, etc...
+
+You may end up needing to check which one to use in your code, so it's perfectly acceptable (and recommended) to use feature detection: 
+
+```javascript
+  if(!!target.attachEvent){
+    //attachEvent - remember to prefix your event with "on"
+  } else {
+    //addEventListener
+  }
+```
+
 
 Now that we know a bit more about what we need to do, lets dive into what makes this possible.
 
