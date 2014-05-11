@@ -1,3 +1,3 @@
 #Document Fragments
 
-coming soon
+coming soon - but they are awesome...so use them
