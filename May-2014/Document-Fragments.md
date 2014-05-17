@@ -86,7 +86,7 @@ the DOM in you Javascript code, it can have a significant impact on your perform
 
 > Reflow is the process by which the geometry of the layout engine's formatting objects are computed.
 
-When you change an aspect of the DOM, the browser must 
+When you change an aspect of the DOM, the browser must reorganize the DOM based on where the change happened and what changed. 
 
 
 ##Document Fragments
