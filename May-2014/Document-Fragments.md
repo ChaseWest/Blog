@@ -86,9 +86,47 @@ the DOM in you Javascript code, it can have a significant impact on your perform
 
 > Reflow is the process by which the geometry of the layout engine's formatting objects are computed.
 
-When you change an aspect of the DOM, the browser must 
-
+When you change an aspect of the DOM, the browser must adjust any geometry that
+may have changed. It's simple to see here that by adding elements over and over
+to the DOM that the geometry on the page must be recalculated each time. Going
+back to our example above, the page would be forced to reflow each time we add
+a new `li` to the DOM.
 
 ##Document Fragments
 
-http://ejohn.org/blog/dom-documentfragments/
+Document Fragments give us the ability to create an empty document object
+that we can append our elements to. Rewriting our above example one last time
+(I promise), we can take advantage of this:
+
+```javascript
+...
+
+function addListItem(){
+  var fragment = document.createDocumentFragment(),
+      listItemText,
+      listItem;
+
+  for(var i = 0; i < 10; i++){
+    listItemText = document.createTextNode("Added")  
+    listItem = document.createElement("li");
+    listItem.appendChild(listItemText);
+    fragment.appendChild(listItem);
+  }
+
+  list.appendChild(fragment);
+
+};
+
+```
+Just a few changes here:
+
+- We created a document fragment using `document.createDocumentFragment()`
+- Then we append each `listItem` to the `fragment`
+- Once all the listItems are created, we append our fragment to the `list`
+
+##Conclusion
+
+Why even care? It seems like more work that you shouldn't have to care about, right?
+I would disagree - I'm only scratching the surface with my above examples.
+There are may benefits to reducing the amount of reflows and increasing the
+performance of your DOM interactions. The less you touch the DOM, the better.
