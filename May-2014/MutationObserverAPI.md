@@ -17,4 +17,43 @@ There are three main type of observations defined currently, `attribute`, `child
 
 > mutations to target's data are to be observed.
 
+### Other Options
 
+##### `subtree`
+
+> target's descendants are to be observed.
+
+##### `characterDataOldValue`
+
+> target's data before the mutation needs to be recorded.
+
+##### `attributeOldValue`
+
+> target's attribute value before the mutation needs to be recorded.
+
+##### `attributeFilter`
+
+> Set to an array of attribute local names (without namespace) if not all attribute mutations need to be observed.
+
+### Example
+```javascript
+    // create an observer instance
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+          _log(mutation);
+      });
+    });
+
+    // configuration of the observer:
+    var config = {
+        attributes: true,
+        childList: true,
+        characterData: true,
+        subtree: true,
+        attributeOldValue: true,
+        characterDataOldValue: true
+    };
+
+    // pass in the target node, as well as the observer options
+    observer.observe(target, config);
+```
