@@ -43,6 +43,10 @@ Passes along the previous value of the attribute that was changed within the `mu
 
 ### Example
 ```javascript
+    
+    //target to listen for observations within
+    var target = document.querySelector("html");
+    
     // create an observer instance
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
