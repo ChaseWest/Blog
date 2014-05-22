@@ -50,7 +50,7 @@ Passes along the previous value of the attribute that was changed within the `mu
     // create an observer instance
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
-          _log(mutation);
+          console.log(mutation);
       });
     });
 
