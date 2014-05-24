@@ -9,15 +9,19 @@ There are three main type of observations defined currently, `attribute`, `child
 
 > mutations to target's children are to be observed.
 
-This setting watches for a change to a DOM nodes attribute within the target node. Examples of this would be removing a `name` attribute, adding a new `id` or modifying a `class`. There are two options that go along with this: `attributeOldValue` and `attributeFilter` that are described below.
+This setting watches for a change to a DOM nodes attribute within the target node. Examples of this type of mutation would be adding/remvoing/replacing DOM nodes. There are two options that go along with this: `attributeOldValue` and `attributeFilter` that are described below.
 
 ### `childList`
 
 > mutations to target's attributes are to be observed.
 
+The observer will let you know when an attribute changes within the context it's observing. An example of this type of mutation would be adding a `class` to a given node. There are two helpful options that accompy this type of mutation, `attributeOldValue` and `attributeFilter`, which are covered below.
+
 ### `characterData`
 
 > mutations to target's data are to be observed.
+
+
 
 ### Other Options
 
