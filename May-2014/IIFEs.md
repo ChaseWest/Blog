@@ -1,8 +1,10 @@
 ##Immediately-Invoked Function Expressions (IIFEs)
 
-Some may also know them as a "self-executing anonymous function". 
+> Produces a lexical scope using JavaScript's function scoping
 
-//coming soon.
+*Some may also know them as a "self-executing anonymous function".* 
+
+
 
 
 ```javascript
