@@ -21,7 +21,7 @@ The observer will let you know when an attribute changes within the context it's
 
 > mutations to target's data are to be observed.
 
-
+*CharacterData is an abstract interface and does not exist as node. It is used by Text, Comment, and ProcessingInstruction nodes*
 
 ### Other Options
 
