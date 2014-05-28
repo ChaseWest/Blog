@@ -2,7 +2,9 @@
 
 > Produces a lexical scope using JavaScript's function scoping
 
-*Some may also know them as a "self-executing anonymous function".* 
+*Sometimes refered to as a "self-executing anonymous function".* 
+
+And IFFE is used for may reasons, but they generally have one thing in common, **scope**.
 
 
 
@@ -15,7 +17,7 @@
 
 ###Immediately-Invoked
 
-It invokes itself immediately after being defined.
+It invokes itself immediately after being defined. 
 
 ###Function Expression
 
