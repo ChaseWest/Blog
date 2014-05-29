@@ -29,6 +29,8 @@ The observer will let you know when an attribute changes within the context it's
 
 > target's descendants are to be observed.
 
+This is a boolean option in relation to the target passed in when initializing your observer. If this is `false`, mutations to the target will only be monitored. If `true`, the child nodes of the target will also be observed.
+
 ##### `characterDataOldValue`
 
 > target's data before the mutation needs to be recorded.
