@@ -35,6 +35,8 @@ This is a boolean option in relation to the target passed in when initializing y
 
 > target's data before the mutation needs to be recorded.
 
+This tells the observer whether or not to also store the previous character data in the `mutation` object.
+
 ##### `attributeOldValue`
 
 > target's attribute value before the mutation needs to be recorded.
