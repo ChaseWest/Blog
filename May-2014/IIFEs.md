@@ -4,8 +4,7 @@
 
 *Sometimes refered to as a "self-executing anonymous function".* 
 
-And IFFE is used for may reasons, but they generally have one thing in common, **scope**. I'm not going to get into all the gory details here, but scope can definitely be a tricky thing in JavaScript and you can get started looking into it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Scope_Cheatsheet). 
-
+An IFFE is used for may reasons, but they generally have one thing in common, **scope**. I'm not going to get into all the gory details here, but scope can definitely be a tricky thing in JavaScript and you can get started looking into it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Scope_Cheatsheet). 
 
 ```javascript
 (function(){
@@ -13,9 +12,17 @@ And IFFE is used for may reasons, but they generally have one thing in common, *
 })();
 ```
 
+Lets discuss the format a bit before diving deeper. I'm going to break this into 4 sections `(`, `function(){}`, `)` and `()`.
+
+- The initial `(` is simply an indicator that this is no ordinary function expression. Some prefer `!`, but it has the same outcome, absolutely nothing.
+- `function(){}` you've seen this plenty of times before I'm sure, but this is the (anonymous) function expression piece.
+- Since I use the `(` to indicate that something awesome is about to happen, I have to close that paren.
+  - *Note: This can come before or after the next step*
+- Lastly we invoke the function immediately using `()`.
+
 ###Immediately-Invoked
 
-It invokes itself immediately after being defined. 
+It invokes itself immediately after being defined. You'll notice the `()` right after the definition of the function. 
 
 ###Function Expression
 
