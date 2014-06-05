@@ -66,3 +66,33 @@
 #####search
 #####tel
 #####color
+
+
+###Examples
+------
+
+```html
+<input type="text"></input>
+<input type="password"></input>
+<input type="checkbox"></input>
+<input type="radio"></input>
+<input type="button"></input>
+<input type="submit"></input>
+<input type="reset"></input>
+<input type="file"></input>
+<input type="hidden"></input>
+<input type="image"></input>
+<input type="datetime"></input>
+<input type="datetime-local"></input>
+<input type="date"></input>
+<input type="month"></input>
+<input type="time"></input>
+<input type="week"></input>
+<input type="number"></input>
+<input type="range"></input>
+<input type="email"></input>
+<input type="url"></input>
+<input type="search"></input>
+<input type="tel"></input>
+<input type="color"></input>
+```
