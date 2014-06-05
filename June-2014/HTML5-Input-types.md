@@ -54,19 +54,56 @@
 *Note: If the browser does not support the given type it will revert to using a type of `text`*
 
 #####datetime
+
+> Control for setting the element’s value to a string representing a global date and time.
+
 #####datetime-local
+
+> Control for setting the element’s value to a string representing a local date and time.
+
 #####date
+
+> Control for setting the element’s value to a string representing a date.
+
 #####month
+
+> Control for setting the element’s value to a string representing a month.
+
 #####time
+
+> Control for setting the element’s value to a string representing a time.
+
 #####week
+
+> Control for setting the element’s value to a string representing a week.
+
 #####number
+
+> Precise control for setting the element’s value to a string representing a number.
+
 #####range
+
+> Imprecise control for setting the element’s value to a string representing a number.
+
 #####email
+
+> Control for editing an e-mail address or list of e-mail addresses given in the element’s value.
+
 #####url
+
+> Control for editing an absolute URL given in the element’s value.
+
 #####search
+
+> One-line plain-text edit control for entering one or more search terms.
+
 #####tel
+
+> One-line plain-text edit control for entering a telephone number.
+
 #####color
 
+> Color-well control, for setting the element’s value to a string representing a simple color.
 
 ###Examples
 ------
