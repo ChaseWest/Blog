@@ -137,3 +137,5 @@
 ###Helpful links
 
 - http://www.html5rocks.com/en/tutorials/forms/html5forms/
+- http://www.w3.org/wiki/HTML/Elements/input
+- http://www.w3.org/TR/html-markup/input.html
