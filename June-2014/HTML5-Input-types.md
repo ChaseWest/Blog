@@ -5,9 +5,6 @@
   HTML5 introduces many new additions, a small fraction of which are new `input` types. First, lets review the current types provided prior:
 
 ###Old Types
-------
-
-
 
 | Type  | Contains  | Extra | 
 | ------------- | ------------- | ------------- |
@@ -25,9 +22,16 @@
 
 
 ###New Types
-------
 
 *Note: If the browser does not support the given type it will revert to using a type of `text`*
+
+| Type  | Contains  | Extra | 
+| ------------- | ------------- | ------------- |
+| Type  | Contains  | Extra | 
+| Type  | Contains  | Extra | 
+| Type  | Contains  | Extra | 
+| Type  | Contains  | Extra | 
+
 
 #####datetime
 
