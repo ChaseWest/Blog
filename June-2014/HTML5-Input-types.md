@@ -44,7 +44,6 @@
 
 
 ###Examples
-------
 
 ```html
 <input type="text"></input>
