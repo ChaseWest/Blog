@@ -6,7 +6,7 @@
 
 ###Old Types
 
-| Type  | Contains  | Extra | 
+| Type  | Contains  | Control | 
 | ------------- | ------------- | ------------- |
 | **text**  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
 | **password**  | Text with no line breaks (sensitive information)  | One-line plain-text edit control for entering a password.  |
@@ -25,91 +25,23 @@
 
 *Note: If the browser does not support the given type it will revert to using a type of `text`*
 
-| Type  | Contains  | Extra | 
+| Type  | Contains  | Control | 
 | ------------- | ------------- | ------------- |
-| Type  | Contains  | Extra | 
-| Type  | Contains  | Extra | 
-| Type  | Contains  | Extra | 
-| Type  | Contains  | Extra | 
+| **datetime**  | A date and time (year, month, day, hour, minute, second, fraction of a second) with the time zone set to UTC  | Control for setting the element’s value to a string representing a global date and time. | 
+| **datetime-local**  | A date and time (year, month, day, hour, minute, second, fraction of a second) with no time zone  | Control for setting the element’s value to a string representing a local date and time. | 
+| **date**  | A date (year, month, day) with no time zone  | Control for setting the element’s value to a string representing a date. | 
+| **month**  | A date consisting of a year and a month with no time zone  | Control for setting the element’s value to a string representing a month. | 
+| **time**  | A time (hour, minute, seconds, fractional seconds) with no time zone  | Control for setting the element’s value to a string representing a time. |
+| **week**  | A date consisting of a week-year number and a week number with no time zone  | Control for setting the element’s value to a string representing a week. |
+| **number**  | A numerical value  | Precise control for setting the element’s value to a string representing a number. |
+| **range**  | A numerical value, with the extra semantic that the exact value is not important  | Imprecise control for setting the element’s value to a string representing a number. |
+| **email**  | An e-mail address or list of e-mail addresses  | Control for editing an e-mail address or list of e-mail addresses given in the element’s value. |
+| **url**  | An absolute IRI  | Control for editing an absolute URL given in the element’s value. |
+| **search**  | Text with no line breaks  | One-line plain-text edit control for entering one or more search terms. |
+| **tel**  | Text with no line breaks  | One-line plain-text edit control for entering a telephone number. |
+| **color**  | An sRGB color with 8-bit red, green, and blue components  | Color-well control, for setting the element’s value to a string representing a simple color. |
 
 
-#####datetime
-
-> Control for setting the element’s value to a string representing a global date and time.
-
-A date and time (year, month, day, hour, minute, second, fraction of a second) with the time zone set to UTC
-
-#####datetime-local
-
-> Control for setting the element’s value to a string representing a local date and time.
-
-A date and time (year, month, day, hour, minute, second, fraction of a second) with no time zone
-
-#####date
-
-> Control for setting the element’s value to a string representing a date.
-
-A date (year, month, day) with no time zone
-
-#####month
-
-> Control for setting the element’s value to a string representing a month.
-
-A date consisting of a year and a month with no time zone
-
-#####time
-
-> Control for setting the element’s value to a string representing a time.
-
-A time (hour, minute, seconds, fractional seconds) with no time zone
-
-#####week
-
-> Control for setting the element’s value to a string representing a week.
-
-A date consisting of a week-year number and a week number with no time zone
-
-#####number
-
-> Precise control for setting the element’s value to a string representing a number.
-
-A numerical value
-
-#####range
-
-> Imprecise control for setting the element’s value to a string representing a number.
-
-A numerical value, with the extra semantic that the exact value is not important
-
-#####email
-
-> Control for editing an e-mail address or list of e-mail addresses given in the element’s value.
-
-An e-mail address or list of e-mail addresses
-
-#####url
-
-> Control for editing an absolute URL given in the element’s value.
-
-An absolute IRI
-
-#####search
-
-> One-line plain-text edit control for entering one or more search terms.
-
-Text with no line breaks
-
-#####tel
-
-> One-line plain-text edit control for entering a telephone number.
-
-Text with no line breaks
-
-#####color
-
-> Color-well control, for setting the element’s value to a string representing a simple color.
-
-An sRGB color with 8-bit red, green, and blue components
 
 ###Examples
 ------
