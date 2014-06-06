@@ -11,61 +11,18 @@
 
 | Type  | Contains  | Extra | 
 | ------------- | ------------- | ------------- |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| password  | Text with no line breaks (sensitive information)  | One-line plain-text edit control for entering a password.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
-| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| **text**  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| **password**  | Text with no line breaks (sensitive information)  | One-line plain-text edit control for entering a password.  |
+| **checkbox**  | A set of zero or more values from a predefined list  | Represents a state or option that can be toggled.  |
+| **radio**  | An enumerated value  | Represents a selection of one item from a list of items.   |
+| **button**  | N/A  | Button with no additional semantics.  |
+| **submit**  | Button for submitting a form.  | An enumerated value, with the extra semantic that it must be the last value selected and initiates form submission.  |
+| **reset**  | N/A  | Button for resetting a form.  |
+| **file**  | Represents a list of file items.  | Zero or more files each with a MIME type and optionally a file name.  |
+| **hidden**  | An arbitrary string  | Represents a value that is not intended to be examined or manipulated by the user.  |
+| **image**  | A coordinate, relative to a particular image's size, with the extra semantic that it must be the last value selected and initiates form submission  | Either an image from which the UA enables a user to interactively select a pair of coordinates and submit the form, or alternatively a button from which the user can submit the form.  |
 
 
-
-#####checkbox
-
-> Represents a state or option that can be toggled.
-
-A set of zero or more values from a predefined list
-
-#####radio
-
-> Represents a selection of one item from a list of items. 
-
-An enumerated value
-
-#####button
-
-> Button with no additional semantics.
-
-#####submit
-
-> Button for submitting a form. 
-
-An enumerated value, with the extra semantic that it must be the last value selected and initiates form submission
-
-#####reset
-
-> Button for resetting a form.
-
-#####file
-
-> Represents a list of file items.
-
-Zero or more files each with a MIME type and optionally a file name
-
-#####hidden
-
-> Represents a value that is not intended to be examined or manipulated by the user.
-
-An arbitrary string
-
-#####image
-
-> Either an image from which the UA enables a user to interactively select a pair of coordinates and submit the form, or alternatively a button from which the user can submit the form.
-
-A coordinate, relative to a particular image's size, with the extra semantic that it must be the last value selected and initiates form submission
 
 ###New Types
 ------
