@@ -16,6 +16,10 @@
 | text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
 | text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
 | text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
 
 
 
