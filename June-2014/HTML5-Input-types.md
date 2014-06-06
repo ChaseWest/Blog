@@ -7,17 +7,17 @@
 ###Old Types
 ------
 
-#####text
 
-> One-line plain-text edit control for the input element’s value.
 
-Text with no line breaks
+| Type  | Contains  | Extra | 
+| ------------- | ------------- | ------------- |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| password  | Text with no line breaks (sensitive information)  | One-line plain-text edit control for entering a password.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
+| text  | Text with no line breaks  | One-line plain-text edit control for the input element’s value.  |
 
-#####password
 
-> One-line plain-text edit control for entering a password.
-
-Text with no line breaks (sensitive information)
 
 #####checkbox
 
