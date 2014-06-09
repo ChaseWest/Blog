@@ -1,7 +1,5 @@
 #HTML5 Input Types
 
-  All types are viewable [here](http://jsfiddle.net/ChaseWest/4pFmg/).
-
   HTML5 introduces many new additions, a small fraction of which are new `input` types. First, lets review the current types provided prior:
 
 ###Old Types
@@ -44,6 +42,8 @@
 
 
 ###Examples
+
+All types are viewable [here](http://jsfiddle.net/ChaseWest/4pFmg/).
 
 ```html
 <input type="text"></input>
