@@ -40,6 +40,7 @@
 | [**color**](http://www.w3.org/TR/html-markup/input.color.html)  | An sRGB color with 8-bit red, green, and blue components  | Color-well control, for setting the element’s value to a string representing a simple color. |
 
 
+Along with these new types come many new API methods and attributes for interacting with the form input. 
 
 ###Examples
 
