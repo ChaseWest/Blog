@@ -1,4 +1,4 @@
-#README
+# README
 
   This repo is a collection of my posts that I believe will be helpful to others pursuing knowledge in the areas of `Javascript`, `HTML`, `CSS` or whatever subject sounds interesting. I'm by no means an expert in these areas, but in order to help myself retain the knowledge I've decided to write it down here. If it ends up helping others in the process then that's awesome and I'd love to hear any feedback you may have.
 
@@ -13,9 +13,9 @@ It is recommended that you **do not use W3Schools**:
 Use resources like **[mdn][2]** instead. 
 
  
-###JavaScript:
+### JavaScript:
 
-#####Useful:
+##### Useful:
 
  - http://jquery.com/
  - http://jsfiddle.net/
@@ -23,7 +23,7 @@ Use resources like **[mdn][2]** instead.
  - http://requirejs.org/
  - http://cdnjs.com/
 
-#####Performance: 
+##### Performance: 
 
  - http://jsperf.com/
  - http://developer.yahoo.com/performance/rules.html
@@ -31,19 +31,19 @@ Use resources like **[mdn][2]** instead.
  - http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas
  - http://www.artzstudio.com/2009/04/jquery-performance-rules/
 
-#####Specification:
+##### Specification:
 
  - https://developer.mozilla.org/en-US/docs/JavaScript/Language_Resources
  - http://www.ecma-international.org/publications/standards/Ecma-262.htm
 
-#####Tutorials / Guides: 
+##### Tutorials / Guides: 
 
  - http://bonsaiden.github.io/JavaScript-Garden/
  - http://superherojs.com/
  - https://developer.mozilla.org/en-US/docs/JavaScript/Guide
  - http://yuiblog.com/crockford/
 
-#####Editors: 
+##### Editors: 
 
  - http://notepad-plus-plus.org/
  - http://www.vim.org/
@@ -52,7 +52,7 @@ Use resources like **[mdn][2]** instead.
  - http://www.ultraedit.com/ 
 
 
-#####Other:
+##### Other:
 
  - http://overapi.com/javascript/
  - http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/
